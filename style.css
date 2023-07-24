@@ -360,6 +360,12 @@ a {
 .card__image--fence {
   background-image: url(./images/pym.jpeg);
 }
+.card__image--roblox {
+  background-image: url(./images/roblox.png);
+}
+.card__image--dev {
+  background-image: url(./images/dev.png);
+}
 .card__title {
   color: #696969;
   font-size: 1.25rem;
