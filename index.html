@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/dev.svg">
+  <title>RogerDevWeb</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" type="text/css" href="./carrousel.css">
+</head>
+<body>
+
+  <nav class="nav container">
+    <h2>DevWeb</h2>
+
+    <div class="nav__hamburguer"></div>
+
+    <div class="nav__overlay">
+      <ul class="nav__menu">
+
+        <li class="nav__item">
+          <span class="nav__parent">About me
+            <img src="./images/icon-arrow-down.svg" class="nav__arrow">            
+          </span>
+
+          <ul class="nav__inner">
+
+            <li class="nav__dropdown">
+              <a href="#about" class="nav__link">
+                <img src="./images/icon-todo.svg" class="nav__illustration">
+                My history
+              </a>
+            </li>
+
+            <li class="nav__dropdown">
+              <a href="#skills" class="nav__link">
+                <img src="./images/icon-calendar.svg" class="nav__illustration">
+                My skills
+              </a>
+            </li>
+
+            <li class="nav__dropdown">
+              <a href="#projects" class="nav__link">
+                <img src="./images/icon-reminders.svg" class="nav__illustration">
+                My projects
+              </a>
+            </li>
+
+            <li class="nav__dropdown">
+              <a href="#contact" class="nav__link">
+                <img src="./images/icon-planning.svg" class="nav__illustration" alt="imagen">
+                Social media
+              </a>
+            </li>
+
+
+          </ul>
+
+        </li>
+
+        <li class="nav__item">
+
+          <span class="nav__parent">Contact & more
+            <img src="./images/icon-arrow-down.svg" class="nav__arrow">            
+          </span>
+
+          <ul class="nav__inner">
+
+            <li class="nav__dropdown">
+              <a href="#" class="nav__link">Email</a>
+            </li>
+
+            <li class="nav__dropdown">
+              <a href="#contact" class="nav__link">Social medias</a>
+            </li>
+          </ul>
+
+        </li>
+
+        <li class="nav__item">
+          <a href="#skills" class="nav__link">Careers</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+  <main class="main">
+    <section class="main__grid">
+
+      <picture class="main__picture">
+
+        <source srcset="./images/dev.svg" class="main__img" media="(min-width:768px)">
+
+        <img src="./images/dev.svg" class="main__img">
+
+      </picture>
+
+      <article class="main__article">
+
+        <div class="main__texts">
+
+          <h1 class="main__title"> FullStack Developer</h1>
+          <p class="main__show">Hi! My name is <span class="main__shower"> Rogelio Gonzalez Perez</span> </p>
+          <a href="https://www.linkedin.com/in/rogelio-gonz%C3%A1lez-p%C3%A9rez-891493212/" class="main__cta">Hire me</a>
+
+        </div>
+
+      </article>
+
+    </section>
+
+    <!-- About me --->
+    <section id="about" class="main__grids about-me">
+      <article class="main__article">
+        <div class="main__texts">
+          <h1 class="main__title">About me</h1>
+          <p class="main__show">Learn more about me and <span class="main__shower">My work</span></p>
+          <div class="main__about">
+            <p class="main__paragraph">
+              I am a 21-year-old web developer with a passion for creating innovative and user-friendly websites. I have been studying programming since I was 18, and I am always eager to learn new technologies and techniques. <br><br>
+
+              I was first drawn to the world of programming by the possibilities it offered to create something new and meaningful. However, it was when I discovered web development that I truly found my calling. I love the ability to use my imagination to design and build websites that are both visually appealing and functionally efficient.
+              <br><br>
+              In addition to my work as a web developer, I am also an avid artist and writer. I find that my hobbies help me to free my imagination and creativity, which in turn inspires me in my professional work.
+            </p>
+                  <a href="./CV_Rogelio.pdf" class="main__cta">Download my CV</a>
+
+          </div>          
+        </div>
+      </article>
+      <picture class="main__picture">
+        <source srcset="./images/roger.jpeg" class="main__img" media="(min-width:768px)">
+        <img src="./images/roger.jpeg" class="main__img rounded">
+      </picture>
+    </section>
+    <section id="skills" class="main__skills">
+      <article class="main__article">
+        <div class="main__texts">
+          <h1 class="main__title center">My Skills</h1>
+          <p class="main__show center">Let me show you my <span class="main__shower">Skills</span></p>
+        </div>
+        <div class="content__cards">
+          <div class="main__cards">
+            <picture class="main__skill-img">
+              <img class="img__skill" src="./images/html.png" style="width: 200px;" alt="html" />
+              <p class="show__skills">HTML 5</p>
+            </picture>
+          </div>
+          <div class="main__cards">
+            <picture class="main__skill-img">
+              <img class="img__skill" src="./images/css.png" style="width: 200px;" alt="css" />
+              <p class="show__skills">CSS 3</p>
+            </picture>
+          </div>
+          <div class="main__cards">
+            <picture class="main__skill-img">
+              <img class="img__skill" src="./images/js.png" style="width: 200px;" alt="JavaScript" />
+              <p class="show__skills">JavaScript</p>
+            </picture>
+          </div>
+          <div class="main__cards">
+            <picture class="main__skill-img">
+              <img class="img__skill" src="./images/php.png" style="width: 200px;" alt="php" />
+              <p class="show__skills"></p>
+            </picture>
+          </div>
+
+          <div class="main__cards">
+            <picture class="main__skill-img">
+              <img class="img__skill" src="./images/laravel.png" style="width: 200px;" alt="laravel" />
+              <p class="show__skills"></p>
+            </picture>
+          </div>
+
+          <div class="main__cards">
+            <picture class="main__skill-img">
+              <img class="img__skill" src="./images/livewire.png" style="width: 200px;" alt="livewire" />
+              <p class="show__skills">Livewire</p>
+            </picture>
+          </div>
+
+          <div class="main__cards">
+            <picture class="main__skill-img">
+              <img class="img__skill" src="./images/tailwindcss.png" style="width: 200px;" alt="tailwindcss" />
+              <p class="show__skills"></p>
+            </picture>
+          </div>
+          <div class="main__cards">
+            <picture class="main__skill-img">
+              <img class="img__skill" src="./images/mysql.png" style="width: 200px;" alt="mysql" />
+              <p class="show__skills"></p>
+            </picture>
+          </div>
+        </div>
+      </article>
+    </section>
+    <section id="projects" class="main__project">
+      <article class="main__article">
+        <h1 class="main__title center mt-2">My projects</h1>
+        <p class="main__show center">Check the <span class="main__shower">Project´s</span> was maded by me </p>
+        <ul class="cards">
+          <li class="cards__item">
+            <div class="card">
+              <div class="card__image card__image--fence"></div>
+              <div class="card__content">
+                <div class="card__title">PymMarket</div>
+                <p class="card__text"> In this project, a business was created where articles and/or services can be published. </p>
+                <a href="https://unbaked-battery.000webhostapp.com/login.php" class="btn btn--block card__btn">View project</a>
+              </div>
+            </div>
+          </li>
+          <li class="cards__item">
+            <div class="card">
+              <div class="card__image card__image--river"></div>
+              <div class="card__content">
+                <div class="card__title">Website GRIP</div>
+                <p class="card__text">In this project, the website was created together with its respective Blog, for the GRIP psychological center</p>
+                <a href="https://bloggrip.000webhostapp.com" class="btn btn--block card__btn">View project</a>
+              </div>
+            </div>
+          </li>
+          <li class="cards__item">
+            <div class="card">
+              <div class="card__image card__image--record"></div>
+              <div class="card__content">
+                <div class="card__title">appointment management system</div>
+                <p class="card__text">In this project, a web application was made to manage the appointments of the GRIP psychological center</p>
+                <button class="btn btn--block card__btn">Private project 🔒</button>
+              </div>
+            </div>
+          </li>
+          <li class="cards__item">
+            <div class="card">
+              <div class="card__image card__image--flowers"></div>
+              <div class="card__content">
+                <div class="card__title">Mieles kaab</div>
+                <p class="card__text">Mieles kaab is a freelancer project where the template was created for a business that was just starting.</p>
+                <a href="https://kaabmiel.netlify.app/" class="btn btn--block card__btn">View Project</a>
+              </div>
+            </div>
+          </li>
+          <li class="cards__item">
+            <div class="card">
+              <div class="card__image card__image--roblox"></div>
+              <div class="card__content">
+                <div class="card__title">Instagram Clone</div>
+                <p class="card__text">I create a instagram clone for show my skills in php & laravel</p>
+                <a href="https://github.com/ForgottenTrainer/RobloxGram" class="btn btn--block card__btn">View Project</a>
+              </div>
+            </div>
+          </li>
+          <li class="cards__item">
+            <div class="card">
+              <div class="card__image card__image--dev"></div>
+              <div class="card__content">
+                <div class="card__title">Jobs search and post</div>
+                <p class="card__text">Create a professional platform for job seekers to post job openings and apply seamlessly</p>
+                <a href="https://github.com/ForgottenTrainer/devjobs-curso" class="btn btn--block card__btn">View Project</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </article>
+    </section>
+    <section id="contact" class="main__form">
+      <div class="container">
+        <div class="main__texts">
+          <h1 class="main__title center">Contact Me</h1>
+          <p class="main__show center">It´s time to work <span class="main__shower">Together</span></p>
+        </div>
+
+        <!-- code here -->
+        <div class="card">
+          <div class="card-image">  
+            <h2 class="card-heading">
+              Get started
+              <small>Contact me with my social media</small>
+            </h2>
+          </div>
+          <ul class="wrapper">
+            <li class="icon instagram">
+              <span class="tooltip">Instagram</span>
+              <span> <a href="https://www.instagram.com/forgottent312/"><i class="fab fa-instagram"></i></a> </span>
+            </li>
+            <li class="icon github">
+              <span class="tooltip">Github</span>
+              <span> <a href="https://github.com/ForgottenTrainer"><i class="fab fa-github"></i></a> </span>
+            </li>
+            <li class="icon youtube">
+              <span class="tooltip">Youtube</span>
+              <span><a href="https://www.youtube.com/channel/UCu0KLnBiG86hEIalort867w"><i class="fab fa-youtube"></i></a></span>
+            </li>
+            <li class="icon facebook">
+              <span class="tooltip">Linkedin</span>
+              <span><a href="https://www.youtube.com/channel/UCu0KLnBiG86hEIalort867w"><i class="fa-brands fa-linkedin"></i></a></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="./app.js"></script>
+  <script src="https://kit.fontawesome.com/2157411cb1.js" crossorigin="anonymous"></script>
+</body>
+</html>
