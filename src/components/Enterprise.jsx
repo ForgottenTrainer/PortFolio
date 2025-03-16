@@ -12,7 +12,7 @@ import non from './../assets/html.png';
 const Enterprise = () => {
   return (
     <div className='pl-5 pt-5 pb-5'>
-        <div class="grid lg:grid-cols-9 grid-cols-4 gap-4 pt-5 pb-5">
+        <div className="grid lg:grid-cols-9 grid-cols-4 gap-4 pt-5 pb-5">
             <div>
               <img src={Html} alt="" className='w-10 grayscale hover:grayscale-0 transition duration-300' />
             </div>

@@ -13,14 +13,14 @@ const About = () => {
     <div className="lg:p-10 p-5" id="about">
       <div className="grid lg:grid-cols-2 gap-4">
         <motion.div
-          className="lg:pr-7"
+          className="lg:pr-7 flex flex-col items-start justify-center"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
           variants={fadeInVariant}
         >
           <h3 className="font-light text-gray-500 pb-4">About Me</h3>
-          <h5 className="font-semibold text-3xl text-black">
+          <h5 className="font-normal text-5xl text-black ">
             Design, Development and Network. <br /> All In One Place
           </h5>
           <p className="font-light text-gray-500 pt-4">

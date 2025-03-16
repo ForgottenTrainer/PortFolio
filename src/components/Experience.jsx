@@ -83,6 +83,7 @@ const Experience = () => {
               </motion.li>
             ))}
           </ol>
+          <a href="./rogerEng-cv.pdf" className="bg-slate-800 text-white rounded-md p-2 transition-all hover:bg-slate-700" target="_blank" rel="noopener noreferrer">Download my CV</a>
         </div>
       </div>
     </div>

@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import gripw from './../assets/project/2.webp';
-import pym from './../assets/project/1.webp';
+import capilla from './../assets/project/10.webp';
 import gripp from './../assets/project/3.webp';
 import gram from './../assets/project/5.webp';
 import dev from './../assets/project/6.webp';
@@ -11,11 +10,11 @@ import foro from './../assets/project/9.webp';
 const Projects = () => {
   const projects = [
     {
-      title: 'Website GRIP',
-      description: 'In this project, the website was created together with its respective Blog, for the GRIP psychological center',
-      git: 'https://github.com/ForgottenTrainer/citas-laravel',
-      web: '',
-      img: gripw
+      title: 'Capilla Divino Niño',
+      description: 'Freelance project where I contributed to the design and development of a chapel. Focused on web desing and creating the backend, ensuring a space that is both functional and aesthetically inspiring',
+      git: 'https://github.com/ForgottenTrainer/capilla',
+      web: 'https://www.divinoninopdc.com/',
+      img: capilla
     },
     {
       title: 'Appointment Management System',
@@ -51,13 +50,6 @@ const Projects = () => {
       git: 'https://github.com/ForgottenTrainer/devjobs-curso',
       web: '',
       img: dev
-    },
-    {
-      title: 'PYMMARKET',
-      description: 'In this project, a business was created where articles and/or services can be published.',
-      git: 'https://github.com/ForgottenTrainer/pym',
-      web: '',
-      img: pym
     }
   ];
 
